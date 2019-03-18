@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>OSTube</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+	
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/">OSTube</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class=" dropdown"><a href="#" class="dropdown-toggle active texto-nav" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inicio<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="texto-nav"><a href="/">Normal</a></li>
+            <li class="texto-nav"><a href="/slideshow.html">Slideshow</a></li>
+          </ul>         
+        </li>
+        <li class=" dropdown"><a href="#" class="dropdown-toggle active texto-nav" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marvel<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="texto-nav"><a href="/index_marvel.html">Normal</a></li>
+            <li class="texto-nav"><a href="/slideshow_marvel.html">Slideshow</a></li>
+          </ul>         
+        </li>
+        <li class=" dropdown"><a href="#" class="dropdown-toggle active texto-nav" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DC<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="texto-nav"><a href="/index_dc.html">Normal</a></li>
+            <li class="texto-nav"><a href="/slideshow_dc.html">Slideshow</a></li>
+          </ul>         
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+<div class="col-md-4">
+	<div class="thumbnail"><a href=reproducir/avengers1.mp4>
+<img src=images/avengers1.png alt="Lights" style="width:100%"><div class="caption">
+	<p>The Avengers (titulada The Avengers: los Vengadores en Hispanoamérica y Marvel: los Vengadores en España) es una película estadounidense de superhéroes de 2012 escrita y dirigida por Joss Whedon. Fue producida por Marvel Studios y distribuida por Walt Disney Pictures, y basada en el cómic homónimo de Marvel Comics.Tamaño del archivo: 16635788 bytes - Fecha de modificación: Thu Nov 15 15:57:37 2018
+</p>
+</div>
+</a>
+</div>
+</div><div class="col-md-4">
+	<div class="thumbnail"><a href=reproducir/avengers2.mp4>
+<img src=images/avengers2.png alt="Lights" style="width:100%"><div class="caption">
+	<p>Avengers: Age of Ultron (titulada Avengers: Era de Ultrón en Hispanoamérica y Vengadores: La era de Ultrón en España) es una película de superhéroes, secuela de The Avengers, dirigida por Joss Whedon y producida por Kevin Feige. Forma parte de la segunda fase del universo cinematográfico de Marvel, junto con Iron Man 3, Thor: The Dark World, Captain America: The Winter Soldier y Guardianes de la Galaxia.Tamaño del archivo: 25017301 bytes - Fecha de modificación: Thu Nov 15 16:53:59 2018
+</p>
+</div>
+</a>
+</div>
+</div><div class="col-md-4">
+	<div class="thumbnail"><a href=reproducir/infinity_war.mp4>
+<img src=images/infinity_war.png alt="Lights" style="width:100%"><div class="caption">
+	<p>Avengers: Infinity War es una película estadounidense de superhéroes de 2018, basada en el equipo de superhéroes de Marvel Comics los Vengadores, producida por Marvel Studios y distribuida por Walt Disney Studios Motion Pictures. Es la secuela de The Avengers (2012) y Avengers: Age of Ultron (2015), ubicándose como la décimo novena película del Universo cinematográfico de Marvel.Tamaño del archivo: 17001894 bytes - Fecha de modificación: Wed Nov 14 22:31:36 2018
+</p>
+</div>
+</a>
+</div>
+</div><div class="col-md-4">
+	<div class="thumbnail"><a href=reproducir/ironman1.mp4>
+<img src=images/ironman1.png alt="Lights" style="width:100%"><div class="caption">
+	<p>Iron Man (titulada Iron Man: el hombre de hierro en Hispanoamérica) es una película de superhéroes. Es la primera entrega del Universo cinematográfico de Marvel. La cinta fue dirigida por Jon Favreau, con un guion de Stan Lee, Hawk Ostby, Art Marcum y Matt Holloway. Es protagonizada por Robert Downey Jr, Terrence Howard, Jeff Bridges, Shaun Toub y Gwyneth Paltrow. La trama gira en torno a Tony Stark, un empresario e ingeniero, que construye un exoesqueleto motorizado y se convierte en Iron Man, un superhéroe tecnológicamente avanzado. Tamaño del archivo: 21904529 bytes - Fecha de modificación: Thu Nov 15 17:43:20 2018
+</p>
+</div>
+</a>
+</div>
+</div><div class="col-md-4">
+	<div class="thumbnail"><a href=reproducir/batman_the_dark_knight.mp4>
+<img src=images/batman_the_dark_knight.png alt="Lights" style="width:100%"><div class="caption">
+	<p>The Dark Knight (titulada El caballero oscuro en España y Batman: el caballero de la noche en Hispanoamérica) es una película de superhéroes británico-estadounidense de 2008 dirigida por Christopher Nolan, escrita por Nolan y su hermano Jonathan Nolan y producida por Emma Thomas, Charles Roven y el mismo Nolan. Tamaño del archivo: 19720671 bytes - Fecha de modificación: Sat Nov 17 14:51:08 2018
+</p>
+</div>
+</a>
+</div>
+</div></div>
+</div>
+
+</body>
+</html>
